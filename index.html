@@ -1,56 +1,128 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="style" href="style">
+        <link rel="style" href="/Users/esmeralda/odin-recipe/style.css">
         <meta charset="utf-8">
         <title> my recipe homepage </title>
+        
     </head>
 
     <style>
         h1 {
-            color: rgb(226, 43, 43); 
-            background-color: rgb(255, 255, 255);
+            color:white; 
+            background-color: darkgreen;
+            text-align: center;
+            border-width: 10px;
+            border-color:yellowgreen;
+            border-style: dotted;
+            font-family: "comic sans ms";
+            padding: 55px;
+            font-size: 50px;
+            display: block;
+        }
+        h2 {
+            margin: 0 auto;
+            width: 100px;
+            color: white;
+            outline: white;
+            outline-style: dotted;
+            text-align: center;
+            font-weight: bold;
+
+        }
+        .top {
+            color:white;
+         
+            font-family: "comic sans ms";
+            font-style: italic;
+            
+            
             text-align: center;
         }
-        p {
-            color:red;
-            background-color:white; 
-            font-family: Impact;
-            font-style: italic;
-        }
         #cupcake {
-            color: red;
-            background-color: orange;
+            color: white;
+            
         }
         #sode {
-            color: yellow;
-            background-color: green;
+            color: white;
+            ;
         }
             #candy {
-                color: blue;
-                background-color: indigo; 
+                color: white;
+                background-color: transparent; 
             }
             .yas {
-                color:tomato; 
+                color:rgb(255, 255, 255);
+                padding: 20px;
+            
+                
+
             }
             img {
-                height: auto;
+                height: 250px;
                 width: 250px;
+                margin: 50px;
+                border-width: 10px;
+                border-color: red;
+                border-style: solid;
+            }
+            .list1 {
+                background-color: yellowgreen;
+                border-width: 10px;
+                border-color: green;
+                border-style: solid;
+                text-align: center;
+                
+            }
+            ul {
+                display: flex;
+                gap: 2rem;
+                font-family: "comic sans ms";
+                list-style: none;
+                flex-grow: 1;
+                
+                
+            }
+            li {
+                flex-grow: 1;
+            }
+            
+
+
+        body {
+            background-color: slategray;
+        }
+       #candee {
+           display: inline-block;
+                  }
+       a {
+           color: blue;
+           font-weight: 700;
+       }
+        
+        
+
             
             
         </style>
+<body>
 
-
-    <h1 class="yas"> Welcome to Emily's recipe homepage </h1> <hr>
+    <h1> Welcome to Emily's recipe homepage </h1> 
+<!--
 <img id="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh3fod7BdDSN8IDqiy39lFye0A50x7pJhPYw&usqp=CAU" alt="pizza">
-<h2 class="yas"> <strong> ABOUT </strong> </h2>
-<p> This website is a tester website used to direct and inform people about recipes but is really heling me learn more about 
+-->
+<h2 > <strong> ABOUT </strong> </h2>
+
+<p class="top"> This website is a tester website used to direct and inform people about recipes but is really heling me learn more about 
     computer science and web development and all that jazz </p>
+    <div class="list1">
 <ul>
-  <li class="yas">  <p id=cupcake> click here for <a href="cupcakes.html">cupcakes</a> <p> </li>
-<li class="yas"> <p id=sode> click here for <a href="soda.html"> soda </a> </p> </li>
-<li> <p id=candy> click here for <a href="candy.html">candy</a> </p> </li>        
+  <li>  <p id=cupcake> CLICK HERE FOR<a href="cupcakes.html">CUPCAKES</a> <p> </li>
+<li> <p id=sode> CLICK HERE FOR</FORm> <a href="soda.html"> SODA</a> </p> </li>
+<li> <p id=candy> CLICK HERE FOR <a href="candy.html" ID="candee">CANDY</a> </p> </li>        
 </ul>
+    </div>
+</body>
 
 
 

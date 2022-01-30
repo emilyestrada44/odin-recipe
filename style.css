@@ -1,0 +1,40 @@
+
+h1 {
+            color:white; 
+            background-color: red;
+            text-align: center;
+            outline: 10px solid black;
+            font-family: "comic sans ms";
+
+        }
+        p {
+            color:red;
+            background-color:white; 
+            font-family: Impact;
+            font-style: italic;
+        }
+        #cupcake {
+            color: red;
+            background-color: orange;
+        }
+        #sode {
+            color: yellow;
+            background-color: green;
+        }
+            #candy {
+                color: blue;
+                background-color: indigo; 
+            }
+            .yas {
+                color:rgb(255, 255, 255);
+                padding: 20px;
+            
+                
+
+            }
+            img {
+                height: auto;
+                width: 250px;
+                margin-left: 500px;
+            }      
+
